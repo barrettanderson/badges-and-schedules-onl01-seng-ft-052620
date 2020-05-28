@@ -4,6 +4,8 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(attendees)
+  badge = []
   attendees.collect {|name| puts "Hello, my name is #{name}."}
+  badge
 
 end
